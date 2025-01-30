@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* CSS Reset de Eric Meyer */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+img, picture, video, canvas {
+    max-width: 100%;
+    display: block;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+
+
+body{
+ background-color: #141414;
+ color: #fff;
+
+ font-family: "Inter", serif;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+
+ font-size: 12px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+article{
+    background-color: #1f1f1f;
+    width: 390px;
+    padding: 50px 35px 35px 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+article header img{
+    display: inline-block;
+    width: 90px;
+    height: auto;
+    border-radius: 100%;
+}
+
+article header h1{
+    margin-top: 25px;
+    font-size: 1.583em;
+}
+
+article header h2{
+    margin-top: 7px;
+    font-size: 1em;;
+    color: #a8c06c;
+    font-weight: 700;
+}
+
+article header p{
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+article nav ul{
+    margin-top: 20px;
+}
+
+article li{
+    margin-bottom: 15px;
+}
+
+article li:last-child{
+    margin-bottom: 0px;
+}
+
+article li a{
+    display: block;
+    padding: 15px;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+article li a:hover{
+    background-color: #a8c06c;
+    color: #333;   
+}
